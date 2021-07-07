@@ -1,0 +1,18 @@
+<script>
+var finput ="x";
+var inpiut ="y";
+console.log("first user");
+var x=prompt("enter any number between 0 and 9");
+console.log("second user");
+var y=prompt("enter any number between 0 and 9");
+if(x==y){
+alert("same number");
+return false;
+}
+else{
+alert("different numbers");
+}
+alert("first guy entered"+x);
+alert("second guy entered " +y);
+
+</script>
